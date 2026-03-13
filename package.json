@@ -1,0 +1,27 @@
+{
+  "name": "@FO2026/library",
+  "version": "0.1.0",
+  "description": "",
+  "homepage": "https://github.com/FilipZSK/library#readme",
+  "bugs": {
+    "url": "https://github.com/FilipZSK/library/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FilipZSK/library.git"
+  },
+  "license": "ISC",
+  "author": "FO",
+  "type": "commonjs",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
